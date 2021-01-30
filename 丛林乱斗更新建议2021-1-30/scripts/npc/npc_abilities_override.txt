@@ -1,0 +1,663 @@
+"DOTAAbilities"
+{
+	"item_aghanims_shard"
+	{
+		"ItemCost"						"3200"
+		"ItemPermanent"					"0"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"660.0"
+	}
+
+	"elder_titan_natural_order"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"350"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_reduction_pct"	    "20 40 60 80"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"magic_resistance_pct"		"30 40 50 60"
+			}
+		}
+	}
+
+	"tidehunter_kraken_shell"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_reduction"		"12 24 36 48"
+				"LinkedSpecialBonus"	"special_bonus_unique_tidehunter_4"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_cleanse"		"1300 1200 1100 1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_reset_interval"	"4.5 4.5 4.5 4.5"
+			}
+		}
+	}
+
+	"elder_titan_return_spirit"
+	{
+		"AbilityCooldown"				"0.1"
+	}
+
+	"shredder_return_chakram"
+	{
+		"AbilityCooldown"				"0.1"
+	}
+
+
+
+
+
+	/// 物品
+
+	"item_smoke_of_deceit" "REMOVE"
+	// "item_tpscroll" "REMOVE"
+	"item_ward_observer" "REMOVE"
+	"item_ward_sentry" "REMOVE"
+	"item_tome_of_knowledge" "REMOVE"
+	"item_bottle" "REMOVE"
+	"item_travel_boots"	"REMOVE"
+	"item_gem"			"REMOVE"
+
+	//=================================================================================================================
+	// Black King Bar
+	//=================================================================================================================
+	"item_black_king_bar"
+	{
+		"AbilityCooldown"				"35"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"5.0 5.0 5.0 4.5 4.5 4.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_level"				"6"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"model_scale"			"30"     // Percentage over model scale
+			}
+		}
+	}
+
+	"item_ethereal_blade"
+	{
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"25.0"	    
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"			"40"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"		"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"blast_movement_slow"	"-80"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"1"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"blast_agility_multiplier"			"2.0"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"blast_damage_base"			"75"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ally"				"1.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"ethereal_damage_bonus"	"-40"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"	"1275"
+			}
+		}
+	}
+
+	"item_octarine_core"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intelligence"	"25"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"425"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"425"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"35"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hero_lifesteal"		"35"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"creep_lifesteal"		"30"
+			}	
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"active_duration"		"7"
+			}
+		}
+	}
+
+	
+	"item_monkey_king_bar"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"40"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance"			"70"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"			"100"
+			}
+		}
+	}
+
+	"item_recipe_kaya"
+	{
+		"ItemCost"						"1000"	
+		"ItemRequirements"
+		{
+			"01"						"item_mystic_staff;item_staff_of_wizardry;item_robe"
+		}
+	}
+
+	"item_recipe_silver_edge"
+	{
+		"ItemCost"				"0"
+	}
+
+	"item_kaya"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"30"
+			} 
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"manacost_reduction"			"25"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"			"25"
+			}
+		}
+	}
+
+	"item_kaya_and_sange"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"16"
+			}		
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"30"
+			}		
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"status_resistance"				"20"
+			}		
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"manacost_reduction"			"28"
+			}	
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"			"30"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"12"
+			}
+		}
+	}
+
+	"item_yasha_and_kaya"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"			"16"
+			}		
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"30"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"16"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"manacost_reduction"			"28"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"movement_speed_percent_bonus"	"12"
+			}		
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"			"30"
+			}
+		}
+	}
+
+	"item_refresher"
+	{
+		
+		"AbilityCooldown"				"50.0"
+	}
+
+	"item_recipe_desolator"
+	{
+		"ItemCost"						"800"
+	}
+
+	"item_desolator"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"50"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corruption_armor"		"-12"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"corruption_duration"	"15.0"
+			}
+		}
+	}
+
+	"item_satanic"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"25"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"25"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lifesteal_percent"		"25"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"unholy_lifesteal_percent"	"175"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"unholy_lifesteal_total_tooltip"	"200"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"unholy_duration"		"5.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"status_resistance"			"20"
+			}
+		}
+	}
+
+	"item_heavens_halberd"
+	{
+		"AbilityCooldown"				"30"
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_evasion"				"25"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"20"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"disarm_range"				"3.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"disarm_melee"				"2.0"
+			}	
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"status_resistance"				"15"
+			}							
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_regen_amp"			"30"
+			}
+		}
+	}
+
+	"item_bloodstone"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"425"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"425"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"40"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"manacost_reduction"			"12"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"			"30"
+			}	
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"200"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_per_charge"		"0.2"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amp_per_charge"		"0.35"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"death_charges"				"3"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"kill_charges"			"1"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"charge_range"			"1600"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"initial_charges_tooltip" "14"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_cost_percentage" "30"
+			}
+			"14"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"restore_duration" "2.0"
+			}
+		}
+	}
+
+	// 中立生物物品
+	"item_fallen_sky"
+	{
+		"AbilityCooldown"		"25"
+	}
+
+	"item_fusion_rune"
+	{
+		"AbilityCooldown"				"50.0"
+		"ItemInitialCharges"			"8"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"		"20"
+			}
+		}
+	}
+
+	"item_apex"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"primary_stat"			"666"
+			}
+		}
+	}
+
+	"item_phoenix_ash"
+	{
+		"ItemInitialCharges"			"3"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"health_pct"			"100"
+			}
+		}
+	}
+
+	"item_desolator_2"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corruption_armor"		"-18"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"corruption_duration"	"15.0"
+			}
+		}
+	}
+
+	"item_helm_of_the_undying"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"6"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"			"2"
+			}
+		}
+	}
+
+	"item_dimensional_doorway"
+	{
+
+		"AbilityCooldown"				"30.0"
+		"ItemInitialCharges"			"2"
+	}
+
+	"item_panic_button"
+	{
+		"AbilityCooldown"				"30.0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"400"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"heal"		"2000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"health_threshold"		"15"
+			}
+		}
+	}
+}
